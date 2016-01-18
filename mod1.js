@@ -16,5 +16,5 @@
 // }
 
 var word= prompt('enter any word')
-alert(word)
-console.log(word.length)
+alert(word+ "\n" +word.length+"\n"+word.charAt(2)+"\n"+word.toLowerCase()+"\n"+word.toUpperCase()+"\n"+"Is "+word+"the word you wanted to use?"+"\n"+word.substring(1,4))
+
