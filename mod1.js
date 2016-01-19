@@ -56,35 +56,53 @@ var victims = prompt("How many disaster victims are there?")
 
 victimsInfo=[]
 
-for(i=0; i<victims.length;i++) {
+for(i=0; i<victims;i++) {
 	var vicName = prompt("Victims Name")
-	victimsinfo.push("'"+vicName+"'")
-
 	var vicNum = prompt("Victims Number")
-	victimsinfo.push(vicNum)
-
 	var vicAdd = prompt("Victims Address")
-	victimsinfo.push(vicAdd)
+	victimsInfo.push(vicName)
+	victimsInfo.push(vicNum)
+	victimsInfo.push(vicAdd)
 }
 
-var volunteers = prompt("How many volunteers can sign up to help?")
-
-volunteersInfo = []
-
-for(i=0; i<volunteers;i++) {
-	var volName = prompt("Volunteers Name")
-	volunteersInfo.push(volName)
+var victimsRecord = {
+	for(i=0; i<victimsInfo.length; i+=3) {
+		
+	}
 }
 
-for(i=0; i<volunteers;i++) {
-	var volNum = prompt("Volunteers Number")
-	volunteersInfo.push(volNum)
-}
+// var volunteers = prompt("How many volunteers can you provide?")
 
-for(i=0; i<volunteers;i++) {
-	var volAdd = prompt("Volunteers Address")
-	volunteersInfo.push(volAdd)
-}
+// volunteersInfo=[]
+
+// for(i=0; i<volunteers;i++) {
+// 	var volName = prompt("volunteers name")
+// 	var volNum = prompt("volunteers number")
+// 	var volAdd = prompt("volunteers Address")
+// 	volunteersInfo.push(volName)
+// 	volunteersInfo.push(volNum)
+// 	volunteersInfo.push(volAdd)
+// }
+
+
+// alert(victims+"\n"+victimsInfo+"\n"+volunteers+"\n"+volunteersInfo)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
